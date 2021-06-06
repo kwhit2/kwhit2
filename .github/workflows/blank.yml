@@ -24,7 +24,3 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_skipped: metrics
           plugin_habits: yes
-          plugin_pagespeed: yes
-          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} # Optional but recommended
-          plugin_pagespeed_detailed: yes                         # Print detailed audit metrics
-          plugin_pagespeed_screenshot: yes                        # Display a screenshot of your website
