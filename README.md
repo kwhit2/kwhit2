@@ -3,12 +3,6 @@
 <!-- If you're using "main" as default branch -->
 ![Metrics](https://github.com/kwhit2/kwhit2/blob/main/github-metrics.svg)
 
-- uses: kwhit2/metrics@main
-  with:
-    # ... other options
-    plugin_isocalendar: yes
-    plugin_isocalendar_duration: full-year # Display full year instead of half year
-
 <!--
 **kwhit2/kwhit2** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
