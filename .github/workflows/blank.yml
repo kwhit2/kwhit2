@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # See action.yml for all options
-      - uses: lowlighter/metrics@latest
+      - uses: kwhit2/metrics@main
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
@@ -18,7 +18,6 @@ jobs:
   with:
     # ... other options
     plugin_languages: yes
-    plugin_languages_ignored: html, css                           # List of languages to ignore
     plugin_languages_skipped: my-test-repo                        # List of repositories to skip
     plugin_languages_colors: "0:orange, javascript:#ff0000, ..."  # Make most used languages orange and JavaScript red
     plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..." # Customize languages names with aliases
@@ -29,4 +28,4 @@ jobs:
     plugin_languages_indepth: no                                  # Get indepth stats (see documentation before enabling)
     plugin_languages_recent_load: 500                             # Load up to 500 events to compute recently used stats
     plugin_languages_recent_days: 7                               # Limit recently used stats to last week
-    commits_authoring: lowlighter@users.noreply.github.com        # Surnames or email addresses used to identify your commits
+    commits_authoring: kwhit2@users.noreply.github.com            # Surnames or email addresses used to identify your commits
