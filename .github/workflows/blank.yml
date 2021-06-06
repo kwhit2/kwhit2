@@ -14,7 +14,7 @@ jobs:
         with:
           # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
-  - uses: kwhit2/metrics@master
+  - uses: kwhit2/metrics@main
   with:
     # ... other options
     plugin_languages: yes
