@@ -3,7 +3,7 @@
 <!-- If you're using "main" as default branch -->
 ![Metrics](https://github.com/kwhit2/kwhit2/blob/main/github-metrics.svg)
 
-- uses: lowlighter/metrics@latest
+- uses: kwhit2/metrics@main
   with:
     # ... other options
     plugin_isocalendar: yes
