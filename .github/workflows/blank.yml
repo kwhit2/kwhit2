@@ -33,4 +33,4 @@ jobs:
           plugin_pagespeed_url: .user.website                    # Website to audit (defaults to your GitHub linked website)
           plugin_lines: yes
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 1
