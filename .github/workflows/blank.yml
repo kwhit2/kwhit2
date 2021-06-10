@@ -17,7 +17,7 @@ jobs:
           # Options
           user: kwhit2
           template: classic
-          base: header, activity, repositories
+          base: header, activity, repositories, metadata
           config_timezone: America/Chicago
           plugin_introduction: yes
           plugin_introduction_title: yes
