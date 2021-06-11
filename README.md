@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+![alt text](https://github.com/kwhit2/kwhit2/blob/main/README-kyle-banner.png?raw=true)
 <!-- If you're using "main" as default branch -->
 ![Metrics](https://github.com/kwhit2/kwhit2/blob/main/github-metrics.svg)
 
