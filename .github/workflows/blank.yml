@@ -21,7 +21,7 @@ jobs:
           base: header, activity, repositories, metadata
           config_timezone: America/Chicago
           plugin_languages: yes
-          plugin_languages_ignored: asp.net, shaderlab, HLSL
+          plugin_languages_ignored: asp.net, shaderlab
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
@@ -35,4 +35,4 @@ jobs:
           plugin_pagespeed_url: https://kwhit2.github.io/        # Website to audit (defaults to your GitHub linked website)
           plugin_lines: yes
           plugin_stars: yes
-          plugin_stars_limit: 2
+          plugin_stars_limit: 1
