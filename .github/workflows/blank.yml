@@ -21,7 +21,7 @@ jobs:
           base: header, activity, repositories, metadata
           config_timezone: America/Chicago
           plugin_languages: yes
-          plugin_languages_ignored: asp.net, shaderlab
+          plugin_languages_ignored: asp.net, shaderlab, HLSL
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_recent_days: 14
