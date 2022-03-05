@@ -35,4 +35,4 @@ jobs:
           plugin_pagespeed_url: https://kwhit2.github.io/        # Website to audit (defaults to your GitHub linked website)
           plugin_lines: yes
           plugin_stars: yes
-          plugin_stars_limit: 1
+          plugin_stars_limit: 2
