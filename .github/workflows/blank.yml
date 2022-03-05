@@ -24,10 +24,10 @@ jobs:
           plugin_languages_ignored: asp.net, shaderlab, HLSL
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          #plugin_languages_recent.days: 14
-          #plugin_languages_recent.load: 300
+          plugin_languages_recent.days: 14
+          plugin_languages_recent.load: 300
           plugin_languages_sections: most-used
-          plugin_languages_threshold: 0%
+          plugin_languages_threshold: 5%
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }} # Optional but recommended
           plugin_pagespeed_detailed: yes                         # Print detailed audit metrics
